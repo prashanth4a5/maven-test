@@ -10,6 +10,6 @@ http://www.mulesoft.org/schema/mule/github http://www.mulesoft.org/schema/mule/g
     </spring:beans>
      <munit:test name="mvntest1-test-suite-mvntest1FlowTest" description="Test">
         <flow-ref name="mvntest1Flow" doc:name="Flow-ref to mvntest1Flow"/>
-        <munit:assert-on-equals message="assert failed" expectedValue="#['hello']" actualValue="#[payload]" doc:name="Assert Equals"/>
+        <munit:assert-on-equals message="assert failed" expectedValue="#['I love you Bujjiiii.....................................']" actualValue="#[payload]" doc:name="Assert Equals"/>
     </munit:test>
 </mule>
